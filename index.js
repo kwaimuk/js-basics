@@ -334,7 +334,13 @@ console.log(myBox);
 * Declare a variable 'pieResult' and assign it to the function call.
 * Console.log the variable to see the result.
 **/
-var bakePie = "ingredient";
+function bakePie(ingredient){
+	return "Today's special is "+ ingredient +" pie";
+
+}
+console.log(bakePie("blueberry"));
+
+
 
 /**
 
@@ -344,10 +350,20 @@ var bakePie = "ingredient";
 *
 * Declare a variable 'jumpResult' and assign it to the function call.
 * Console.log the variable to see the result.
+**/
 
+function jump(height){
+	return "You jumped "+ height +" feet hight!";
+}
+console.log(jump(9));
 
+/**
 * Declare a Function named `cook` which a takes three parameters, `ingredient1`, `ingredient2`, `recipeName`.
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
+function cook(ingredient1, ingredient2, recipeName){
+	return ingredient1 +" and "+ ingredient2 +" make a "+ recipeName+"!"
 
+}
+console.log(cook("Tomatoes", "Cheese", "Pizza"));
