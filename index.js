@@ -16,7 +16,7 @@ Song`, `cuteAnimal`, `favColor`, `favSneaker`, `coffeeShop`.
 *
 * Each value should be a String. 
 **/
-var firstName = "Erdnest the best";
+var firstName = "Ernest";
 console.log(firstName);
 
 var lastName = "Tsang";
